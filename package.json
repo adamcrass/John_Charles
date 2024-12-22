@@ -1,0 +1,24 @@
+{
+  "name": "john-charles",
+  "version": "1.0.0",
+  "repository": "git@github.com:adamcrass/John_Charles.git",
+  "author": "Adam Crass <aj.crass@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  },
+  "alias": {
+    "pages": "./src/pages",
+    "components": "./src/components"
+  }
+}
