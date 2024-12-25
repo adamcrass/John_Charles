@@ -7,6 +7,7 @@ import College from "components/College";
 import BBQ from "components/BBQ";
 import Footer from "components/Footer";
 import FlexFootball from "../components/FlexFootball";
+import Sources from "../components/Sources";
 
 const StyledHome = styled.div`
   display: flex;
