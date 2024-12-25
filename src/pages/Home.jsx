@@ -24,6 +24,7 @@ const Home = () => {
       <College />
       <FlexFootball />
       <BBQ />
+      <Sources />
       <Footer />
     </StyledHome>
   );
