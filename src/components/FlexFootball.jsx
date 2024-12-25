@@ -41,9 +41,9 @@ const FlexFootball = () => {
         <br></br>
         <br></br>
         Flex Football focuses on skill development and safety, allowing players
-        to learn their positions in a fun environment. The league plans to start
-        official play in March 2020, with organizers emphasizing their goal of
-        keeping kids engaged and enjoying the sport.
+        to learn their positions in a fun environment. The league planed to
+        start official play in March 2020, with organizers emphasizing their
+        goal of keeping kids engaged and enjoying the sport.
       </FlexFootballBody>
     </StyledFlexFootball>
   );
