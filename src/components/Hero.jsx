@@ -29,7 +29,6 @@ const Intro = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: red 1px;
 `;
 
 const LargeText = styled.span`
