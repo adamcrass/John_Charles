@@ -22,6 +22,7 @@ const Navbar = () => {
       <StyledLink>College</StyledLink>
       <StyledLink>Flex Football</StyledLink>
       <StyledLink>BBQ</StyledLink>
+      <StyledLink>Sources</StyledLink>
     </StyledNavbar>
   );
 };
