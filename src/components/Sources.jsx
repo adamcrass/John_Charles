@@ -6,12 +6,7 @@ const StyledSources = styled.nav`
 `;
 
 const Sources = () => {
-  <StyledSources>
-    <span>https://www.johnjohnsbbqsauce.com</span>
-    <span>
-      https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq/
-    </span>
-  </StyledSources>;
+  <StyledSources>hello</StyledSources>;
 };
 
 export default Sources;
