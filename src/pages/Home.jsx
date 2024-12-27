@@ -22,9 +22,9 @@ const Home = () => {
       <About />
       <HighSchool />
       <College />
+      <Sources />
       <FlexFootball />
       <BBQ />
-      <Sources />
       <Footer />
     </StyledHome>
   );
