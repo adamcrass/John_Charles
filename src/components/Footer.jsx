@@ -62,6 +62,8 @@ const Footer = () => {
         <FooterNavInfo>College</FooterNavInfo>
         <FooterNavInfo>Flex Football</FooterNavInfo>
         <FooterNavInfo>BBQ</FooterNavInfo>
+        <FooterNavInfo>Hall of Fame</FooterNavInfo>
+        <FooterNavInfo>Sources</FooterNavInfo>
       </StyledFooterInfo>
     </StyledFooter>
   );

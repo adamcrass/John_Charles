@@ -8,6 +8,7 @@ import BBQ from "components/BBQ";
 import Footer from "components/Footer";
 import FlexFootball from "../components/FlexFootball";
 import Sources from "../components/Sources";
+import HOF from "../components/HOF";
 
 const StyledHome = styled.div`
   display: flex;
@@ -24,6 +25,7 @@ const Home = () => {
       <College />
       <FlexFootball />
       <BBQ />
+      <HOF />
       <Sources />
       <Footer />
     </StyledHome>
