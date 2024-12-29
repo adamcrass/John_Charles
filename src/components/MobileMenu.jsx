@@ -27,6 +27,8 @@ const MobileMenu = () => {
       <span>College</span>
       <span>Flex Football</span>
       <span>BBQ</span>
+      <span>Hall of Fame</span>
+      <span>Sources</span>
     </StyledMobileMenu>
   );
 };
