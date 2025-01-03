@@ -24,6 +24,10 @@ const SourcesBody = styled.div`
   padding-top: 10px;
 `;
 
+const LinkTitle = styled.div`
+  font-size: 30px;
+`;
+
 const SourcesText = styled.div`
   display: inline-block;
   border-bottom: 1px solid transparent;
@@ -43,8 +47,7 @@ const Sources = () => {
     <StyledSources id="sources">
       <SourcesTitle>Sources</SourcesTitle>
       <SourcesBody>
-        <span>John John's BBQ</span>
-        <br />
+        <LinkTitle>John John's BBQ</LinkTitle>
         <br />
         <SourcesText>
           <a
@@ -66,8 +69,8 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
-        <span>Flex Football</span>
-        <br />
+        <LinkTitle>Flex Football</LinkTitle>
+
         <br />
         <SourcesText>
           <a
@@ -89,8 +92,8 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
-        <span>Hall of Fame</span>
-        <br />
+        <LinkTitle>Hall of Fame</LinkTitle>
+
         <br />
         <SourcesText>
           <a

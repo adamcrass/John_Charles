@@ -10,6 +10,7 @@ const StyledCollege = styled.div`
 
 const CollegeTitle = styled.div`
   font-size: 40px;
+  padding-bottom: 20px;
 `;
 
 const CollegeBody = styled.div`

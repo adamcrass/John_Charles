@@ -22,6 +22,9 @@ const StyledLink = styled.a``;
 const MobileMenu = ({ closeMenu }) => {
   return (
     <StyledMobileMenu>
+      <StyledLink href="#hero" onClick={closeMenu}>
+        Home
+      </StyledLink>
       <StyledLink href="#about" onClick={closeMenu}>
         About
       </StyledLink>

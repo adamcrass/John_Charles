@@ -71,7 +71,7 @@ const Img = styled.img`
 
 const Hero = () => {
   return (
-    <StyledHero image={image}>
+    <StyledHero image={image} id="hero">
       <Intro>
         <LargeText>
           JOHN <br />

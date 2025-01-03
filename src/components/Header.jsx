@@ -19,7 +19,7 @@ const StyledHeader = styled.div`
   z-index: 98;
 `;
 
-const Logo = styled.span`
+const Logo = styled.a`
   font-size: 54px;
   color: #fff;
   padding-left: 10px;
@@ -58,7 +58,7 @@ const Header = () => {
   return (
     <StyledHeader>
       {menuOpen && <MobileMenu closeMenu={closeMenu} />}
-      <Logo>JC</Logo>
+      <Logo href="#hero">JC</Logo>
       <StyledMenu>
         <Navbar />
       </StyledMenu>
