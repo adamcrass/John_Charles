@@ -23,7 +23,7 @@ const HOFTitle = styled.div`
 
 const HallofFame = () => {
   return (
-    <StyledHOF>
+    <StyledHOF id="hall-of-fame">
       <HOFTitle>Hall of Fame</HOFTitle>
       <HOFText>
         John Charles is a notable figure in Portland State University's

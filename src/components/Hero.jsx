@@ -9,7 +9,6 @@ const StyledHero = styled.div`
   color: #fff;
   padding: 20px;
   padding-top: 80px;
-
   background-image: url(${image});
   background-size: cover;
   background-position: center;
@@ -29,6 +28,11 @@ const Intro = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const LargeText = styled.span`
@@ -40,6 +44,10 @@ const LargeText = styled.span`
 
 const SmallText = styled.span`
   font-size: 46px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const Picture = styled.div`

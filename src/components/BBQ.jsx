@@ -22,7 +22,7 @@ const BBQBody = styled.div`
 
 const BBQ = () => {
   return (
-    <StyledBBQ>
+    <StyledBBQ id="bbq">
       <BBQTitle>John John's BBQ</BBQTitle>
       <BBQBody>
         Charles is now making strides as a coach and entrepreneur. After a

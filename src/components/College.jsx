@@ -18,7 +18,7 @@ const CollegeBody = styled.div`
 
 const College = () => {
   return (
-    <StyledCollege>
+    <StyledCollege id="college">
       <CollegeTitle>College</CollegeTitle>
       <CollegeBody>
         Charles continued as a starter in football at Foothill Community College

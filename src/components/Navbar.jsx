@@ -8,6 +8,7 @@ const StyledNavbar = styled.nav`
 
 const StyledLink = styled.a`
   color: white;
+  text-decoration: none;
 
   &:hover {
     border-bottom: 1px solid;
@@ -17,13 +18,13 @@ const StyledLink = styled.a`
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <StyledLink>About</StyledLink>
-      <StyledLink>High School</StyledLink>
-      <StyledLink>College</StyledLink>
-      <StyledLink>Flex Football</StyledLink>
-      <StyledLink>BBQ</StyledLink>
-      <StyledLink>Hall of Fame</StyledLink>
-      <StyledLink>Sources</StyledLink>
+      <StyledLink href="#about">About</StyledLink>
+      <StyledLink href="#high-school">High School</StyledLink>
+      <StyledLink href="#college">College</StyledLink>
+      <StyledLink href="#flex-football">Flex Football</StyledLink>
+      <StyledLink href="#bbq">BBQ</StyledLink>
+      <StyledLink href="#hall-of-fame">Hall of Fame</StyledLink>
+      <StyledLink href="#sources">Sources</StyledLink>
     </StyledNavbar>
   );
 };

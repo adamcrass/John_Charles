@@ -12,23 +12,37 @@ const StyledMobileMenu = styled.div`
   height: 100vh;
   z-index: 99;
   gap: 30px;
-
   background-color: black;
   color: white;
-
   font-size: 29px;
 `;
 
-const MobileMenu = () => {
+const StyledLink = styled.a``;
+
+const MobileMenu = ({ closeMenu }) => {
   return (
     <StyledMobileMenu>
-      <span>About</span>
-      <span>High School</span>
-      <span>College</span>
-      <span>Flex Football</span>
-      <span>BBQ</span>
-      <span>Hall of Fame</span>
-      <span>Sources</span>
+      <StyledLink href="#about" onClick={closeMenu}>
+        About
+      </StyledLink>
+      <StyledLink href="#high-school" onClick={closeMenu}>
+        High School
+      </StyledLink>
+      <StyledLink href="#college" onClick={closeMenu}>
+        College
+      </StyledLink>
+      <StyledLink href="#flex-football" onClick={closeMenu}>
+        Flex Football
+      </StyledLink>
+      <StyledLink href="#bbq" onClick={closeMenu}>
+        BBQ
+      </StyledLink>
+      <StyledLink href="#hall-of-fame" onClick={closeMenu}>
+        Hall of Fame
+      </StyledLink>
+      <StyledLink href="#sources" onClick={closeMenu}>
+        Sources
+      </StyledLink>
     </StyledMobileMenu>
   );
 };

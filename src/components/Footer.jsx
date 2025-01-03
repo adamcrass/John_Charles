@@ -62,13 +62,13 @@ const Footer = () => {
         </SocialIcons>
       </LeftSection>
       <StyledFooterInfo>
-        <FooterNavInfo>About</FooterNavInfo>
-        <FooterNavInfo>High School</FooterNavInfo>
-        <FooterNavInfo>College</FooterNavInfo>
-        <FooterNavInfo>Flex Football</FooterNavInfo>
-        <FooterNavInfo>BBQ</FooterNavInfo>
-        <FooterNavInfo>Hall of Fame</FooterNavInfo>
-        <FooterNavInfo>Sources</FooterNavInfo>
+        <FooterNavInfo href="#about">About</FooterNavInfo>
+        <FooterNavInfo href="#high-school">High School</FooterNavInfo>
+        <FooterNavInfo href="#college">College</FooterNavInfo>
+        <FooterNavInfo href="#flex-football">Flex Football</FooterNavInfo>
+        <FooterNavInfo href="#bbq">BBQ</FooterNavInfo>
+        <FooterNavInfo href="#hall-of-fame">Hall of Fame</FooterNavInfo>
+        <FooterNavInfo href="#sources">Sources</FooterNavInfo>
       </StyledFooterInfo>
     </StyledFooter>
   );

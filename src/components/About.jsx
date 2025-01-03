@@ -21,7 +21,7 @@ const AboutText = styled.span`
 
 const About = () => {
   return (
-    <StyledAbout>
+    <StyledAbout id="about">
       <AboutTitle>About</AboutTitle>
       <AboutText>
         John Charles, a former All-American quarterback, played at Portland

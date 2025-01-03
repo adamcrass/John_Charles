@@ -51,13 +51,17 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <StyledHeader>
-      {menuOpen && <MobileMenu />}
+      {menuOpen && <MobileMenu closeMenu={closeMenu} />}
       <Logo>JC</Logo>
       <StyledMenu>
         <Navbar />
-      </StyledMenu>{" "}
+      </StyledMenu>
       <Hamburger onClick={handleMenu}>{menuOpen ? "close" : "open"}</Hamburger>
     </StyledHeader>
   );

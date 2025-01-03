@@ -21,7 +21,7 @@ const HighSchoolBody = styled.div`
 
 const HighSchool = () => {
   return (
-    <StyledHighSchool>
+    <StyledHighSchool id="high-school">
       <HighSchoolTitle>High School</HighSchoolTitle>
       <HighSchoolBody>
         A graduate of Mountain View High School in Mountain View, California,
