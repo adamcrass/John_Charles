@@ -16,7 +16,7 @@ const StyledMobileMenu = styled.div`
   background-color: black;
   color: white;
 
-  font-size: 44px;
+  font-size: 29px;
 `;
 
 const MobileMenu = () => {

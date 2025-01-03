@@ -4,7 +4,6 @@ const StyledCollege = styled.div`
   background-color: #2b2b2b;
   padding: 40px;
   width: 100%;
-  height: 400px;
   color: #fff;
   flex-direction: column;
 `;
@@ -31,15 +30,15 @@ const College = () => {
         the Year for the Greater San Jose Sports Association Awards.
         <br></br>
         <br></br>
-        Charles transferred to PSU where he for both the 1991 and 1992 seasons.
-        In those two seasons, Charles led PSU to two consecutive semi-final
-        appearances. Charles threw three or more touchdowns in 17 of the 18
-        games he started. He earned National Player of the Week honors from USA
-        Today and Sports Illustrated. He was the only player to be named Player
-        of the Year twice in the Western Football Conference. Additionally, he
-        was a Harlon Hill Trophy Finalist, earning both Kodak and Small College
-        All-America honors. Charles was also inducted into the Portland State
-        Hall of Fame in 2018.
+        Charles transferred to PSU where he played for both the 1991 and 1992
+        seasons. In those two seasons, Charles led PSU to two consecutive
+        semi-final appearances. Charles threw three or more touchdowns in 17 of
+        the 18 games he started. He earned National Player of the Week honors
+        from USA Today and Sports Illustrated. He was the only player to be
+        named Player of the Year twice in the Western Football Conference.
+        Additionally, he was a Harlon Hill Trophy Finalist, earning both Kodak
+        and Small College All-America honors. Charles was also inducted into the
+        Portland State Hall of Fame in 2018.
       </CollegeBody>
     </StyledCollege>
   );

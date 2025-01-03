@@ -4,7 +4,6 @@ const StyledBBQ = styled.div`
   background-color: #2b2b2b;
   display: flex;
   width: 100%;
-  height: 480px;
   color: #fff;
   flex-direction: column;
   padding: 40px;

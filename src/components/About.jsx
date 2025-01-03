@@ -4,7 +4,6 @@ const StyledAbout = styled.div`
   display: flex;
   background-color: #2b2b2b;
   width: 100%;
-  height: 200px;
   color: #fff;
   flex-direction: column;
   padding: 40px;

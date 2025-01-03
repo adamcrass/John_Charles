@@ -35,6 +35,7 @@ const SocialIcons = styled.div`
 
 const FooterNavInfo = styled.a`
   color: white;
+
   &:hover {
     border-bottom: 1px solid;
   }
@@ -44,6 +45,10 @@ const StyledFooterInfo = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 
 const Footer = () => {

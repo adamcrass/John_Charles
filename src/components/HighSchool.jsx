@@ -4,7 +4,6 @@ const StyledHighSchool = styled.div`
   background-color: #595959;
   display: flex;
   width: 100%;
-  height: 240px;
   color: #fff;
   flex-direction: column;
   padding: 40px;

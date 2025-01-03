@@ -21,7 +21,7 @@ const HOFTitle = styled.div`
   padding-bottom: 20px;
 `;
 
-const HOF = () => {
+const HallofFame = () => {
   return (
     <StyledHOF>
       <HOFTitle>Hall of Fame</HOFTitle>
@@ -47,4 +47,4 @@ const HOF = () => {
   );
 };
 
-export default HOF;
+export default HallofFame;

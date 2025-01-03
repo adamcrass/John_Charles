@@ -32,8 +32,10 @@ const Intro = styled.div`
 `;
 
 const LargeText = styled.span`
-  font-size: 100px;
+  font-size: clamp(70px, 8vw, 200px);
   font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
 `;
 
 const SmallText = styled.span`
@@ -46,6 +48,12 @@ const Picture = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  position: relative;
+  top: 21px;
+
+  @media (max-width: 768px) {
+    top: 21px;
+  }
 `;
 
 const Img = styled.img`
