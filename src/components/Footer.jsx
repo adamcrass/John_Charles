@@ -69,6 +69,7 @@ const Footer = () => {
         <FooterNavInfo href="#bbq">BBQ</FooterNavInfo>
         <FooterNavInfo href="#hall-of-fame">Hall of Fame</FooterNavInfo>
         <FooterNavInfo href="#sources">Sources</FooterNavInfo>
+        <FooterNavInfo href="#videos">Videos</FooterNavInfo>
       </StyledFooterInfo>
     </StyledFooter>
   );

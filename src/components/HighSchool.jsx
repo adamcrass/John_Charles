@@ -7,7 +7,7 @@ const StyledHighSchool = styled.div`
   color: #fff;
   flex-direction: column;
   padding: 40px;
-  font-size: 50px;
+  font-size: 40px;
 `;
 
 const HighSchoolTitle = styled.div`

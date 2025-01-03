@@ -46,6 +46,9 @@ const MobileMenu = ({ closeMenu }) => {
       <StyledLink href="#sources" onClick={closeMenu}>
         Sources
       </StyledLink>
+      <StyledLink href="#video" onClick={closeMenu}>
+        Videos
+      </StyledLink>
     </StyledMobileMenu>
   );
 };

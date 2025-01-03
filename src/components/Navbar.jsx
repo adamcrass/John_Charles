@@ -25,6 +25,7 @@ const Navbar = () => {
       <StyledLink href="#bbq">BBQ</StyledLink>
       <StyledLink href="#hall-of-fame">Hall of Fame</StyledLink>
       <StyledLink href="#sources">Sources</StyledLink>
+      <StyledLink href="#videos">Videos</StyledLink>
     </StyledNavbar>
   );
 };

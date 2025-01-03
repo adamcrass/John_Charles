@@ -9,6 +9,7 @@ import Footer from "components/Footer";
 import FlexFootball from "../components/FlexFootball";
 import Sources from "../components/Sources";
 import HallofFame from "../components/HallofFame";
+import Video from "../components/Videos";
 
 const StyledHome = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ const Home = () => {
       <BBQ />
       <HallofFame />
       <Sources />
+      <Video />
       <Footer />
     </StyledHome>
   );

@@ -31,14 +31,14 @@ const LinkTitle = styled.div`
 const SourcesText = styled.div`
   display: inline-block;
   border-bottom: 1px solid transparent;
+  font-style: italic;
   &:hover {
     border-bottom-color: currentColor;
   }
 
-  /* Add spacing between links on smaller screens */
   @media (max-width: 768px) {
-    margin-bottom: 15px; /* Add space between links */
-    display: block; /* Make each link block-level for better spacing */
+    margin-bottom: 15px;
+    display: block;
   }
 `;
 
@@ -58,6 +58,7 @@ const Sources = () => {
             https://www.johnjohnsbbqsauce.com
           </a>
         </SourcesText>
+        <br></br>
         <SourcesText>
           <a
             href="https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq/"
