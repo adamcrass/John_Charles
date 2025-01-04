@@ -2,6 +2,8 @@ import { useState } from "react";
 import styled from "@emotion/styled";
 import Navbar from "./Navbar";
 import MobileMenu from "./MobileMenu";
+import HamburgerMenu from "../assets/HamburgerLogo";
+import RotatedHamburgerMenu from "../assets/RotatedHamburger";
 
 const StyledHeader = styled.div`
   background-color: black;
@@ -62,7 +64,9 @@ const Header = () => {
       <StyledMenu>
         <Navbar />
       </StyledMenu>
-      <Hamburger onClick={handleMenu}>{menuOpen ? "close" : "open"}</Hamburger>
+      <Hamburger onClick={handleMenu}>
+        {menuOpen ? <RotatedHamburgerMenu /> : <HamburgerMenu />}
+      </Hamburger>
     </StyledHeader>
   );
 };
