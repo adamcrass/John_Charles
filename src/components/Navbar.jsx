@@ -18,6 +18,7 @@ const StyledLink = styled.a`
 const Navbar = () => {
   return (
     <StyledNavbar>
+      <StyledLink href="#hero">Home</StyledLink>
       <StyledLink href="#about">About</StyledLink>
       <StyledLink href="#high-school">High School</StyledLink>
       <StyledLink href="#college">College</StyledLink>

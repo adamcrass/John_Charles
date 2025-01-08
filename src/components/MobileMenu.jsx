@@ -19,6 +19,7 @@ const StyledMobileMenu = styled.div`
 const StyledBody = styled.div`
   padding-top: 20px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   position: fixed;

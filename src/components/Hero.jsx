@@ -40,6 +40,7 @@ const LargeText = styled.span`
   font-weight: bold;
   text-align: center;
   line-height: 1.2;
+  padding-top: 20px;
 `;
 
 const SmallText = styled.span`

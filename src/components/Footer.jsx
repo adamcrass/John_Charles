@@ -1,7 +1,4 @@
 import styled from "@emotion/styled";
-import InstagramLogo from "../assets/InstagramLogo";
-import FacebookLogo from "../assets/FacebookLogo";
-
 const StyledFooter = styled.div`
   background-color: #000000;
   color: #fff;
@@ -27,12 +24,6 @@ const LeftSection = styled.div`
   gap: 10px;
 `;
 
-const SocialIcons = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-`;
-
 const FooterNavInfo = styled.a`
   color: white;
 
@@ -55,13 +46,10 @@ const Footer = () => {
   return (
     <StyledFooter>
       <LeftSection>
-        <Email>johncharles@gmail.com</Email>
-        <SocialIcons>
-          <InstagramLogo />
-          <FacebookLogo />
-        </SocialIcons>
+        <Email></Email>
       </LeftSection>
       <StyledFooterInfo>
+        <FooterNavInfo href="#hero">Home</FooterNavInfo>
         <FooterNavInfo href="#about">About</FooterNavInfo>
         <FooterNavInfo href="#high-school">High School</FooterNavInfo>
         <FooterNavInfo href="#college">College</FooterNavInfo>

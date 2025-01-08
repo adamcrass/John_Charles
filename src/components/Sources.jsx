@@ -17,6 +17,7 @@ const StyledSources = styled.div`
 
 const SourcesTitle = styled.div`
   font-size: 40px;
+  padding-bottom: 20px;
 `;
 
 const SourcesBody = styled.div`
@@ -30,6 +31,7 @@ const LinkTitle = styled.div`
 
 const SourcesText = styled.div`
   display: inline-block;
+  color: #898f8b;
   border-bottom: 1px solid transparent;
   font-style: italic;
   &:hover {

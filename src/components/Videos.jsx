@@ -45,7 +45,7 @@ const Video = () => {
       <Videos>
         <iframe
           width="528"
-          height="296"
+          height="325"
           src="https://www.youtube.com/embed/PP0hxjUzCW4?modestbranding=1&autohide=1&controls=1rel=0"
           title="Coach John Charles Speaks About Air One Football Academy"
           frameborder="0"
@@ -56,7 +56,7 @@ const Video = () => {
 
         <iframe
           width="528"
-          height="296"
+          height="325"
           src="https://www.youtube.com/embed/qQxuKRTAGp8?modestbranding=1&autohide=1&controls=1rel=0"
           title="Air One Football Academy Defense!"
           frameborder="0"
@@ -67,7 +67,7 @@ const Video = () => {
 
         <iframe
           width="528"
-          height="296"
+          height="325"
           src="https://www.youtube.com/embed/bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1rel=0"
           title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
           frameborder="0"
