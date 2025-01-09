@@ -11,6 +11,7 @@ const StyledCollege = styled.div`
 const CollegeTitle = styled.div`
   font-size: 40px;
   padding-bottom: 20px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const CollegeBody = styled.div`

@@ -12,30 +12,37 @@ const StyledVideos = styled.div`
 
 const VideoTitle = styled.span`
   padding-bottom: 20px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const Videos = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap; /* Allow videos to wrap */
   gap: 10px;
+  justify-content: center; /* Center align videos */
   width: 100%;
-  align-items: center;
 
   iframe {
-    flex: 1;
-    height: calc((100vw - 40px - 20px) / 3 * 0.5625);
-    max-width: calc(100% / 3 - 10px);
+    flex: 1 1 calc(33.33% - 10px); /* Take one-third width minus gap for desktop */
+    aspect-ratio: 16 / 9; /* Maintain 16:9 ratio */
+    border: none;
   }
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column; /* Stack videos on smaller screens */
+    align-items: center; /* Center align */
 
     iframe {
-      width: 100%; /* Take full width of container */
-      height: calc(100vw * 0.5625); /* Maintain 16:9 aspect ratio */
-      max-width: 100%; /* Ensure it doesn't exceed container */
+      flex: none;
+      width: 100%; /* Full width for mobile */
+      aspect-ratio: 16 / 9; /* Maintain 16:9 ratio */
+    }
   }
+`;
+
+const Caption = styled.div`
+  font-size: 30px;
+  color: #fff;
 `;
 
 const Video = () => {
@@ -44,32 +51,32 @@ const Video = () => {
       <VideoTitle>Videos</VideoTitle>
       <Videos>
         <iframe
-          width="528"
-          height="325"
           src="https://www.youtube.com/embed/PP0hxjUzCW4?modestbranding=1&autohide=1&controls=1rel=0"
           title="Coach John Charles Speaks About Air One Football Academy"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
 
         <iframe
-          width="528"
-          height="325"
           src="https://www.youtube.com/embed/qQxuKRTAGp8?modestbranding=1&autohide=1&controls=1rel=0"
           title="Air One Football Academy Defense!"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
 
         <iframe
-          width="528"
-          height="325"
           src="https://www.youtube.com/embed/bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1rel=0"
           title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          src="https://www.youtube.com/embed/_iKNvDCoUBo"
+          title="John Charles All American QB Leads Portland State Vikings To Victory Over Boise State"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"

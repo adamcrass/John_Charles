@@ -12,6 +12,7 @@ const StyledHighSchool = styled.div`
 
 const HighSchoolTitle = styled.div`
   font-size: 40px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const HighSchoolBody = styled.div`

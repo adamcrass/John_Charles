@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 const StyledFlexFootball = styled.div`
   background-color: #595959;
-  padding: 20px;
+  padding: 40px;
   width: 100%;
   color: #fff;
   flex-direction: column;
@@ -10,14 +10,14 @@ const StyledFlexFootball = styled.div`
 
 const FlexFootballTitle = styled.div`
   font-size: 40px;
-  padding-left: 20px;
   color: #fff;
+  font-family: "Chalkduster", sans-serif;
+  white-space: nowrap; /* Prevents the title from wrapping */
 `;
 
 const FlexFootballBody = styled.div`
   font-size: 20px;
   color: #fff;
-  padding-left: 20px;
   padding-top: 20px;
 `;
 

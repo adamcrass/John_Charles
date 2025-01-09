@@ -19,14 +19,18 @@ const StyledMobileMenu = styled.div`
 const StyledBody = styled.div`
   padding-top: 20px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  position: fixed;
   gap: 26px;
   background-color: black;
   width: 100%;
   height: 100vh;
+  overflow-y: auto; /* Enables vertical scrolling */
+  position: fixed;
+  top: 4.5px;
+
+  /* Add some padding for better scrolling experience */
+  padding-bottom: 20px;
 `;
 
 const StyledLink = styled.a``;

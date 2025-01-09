@@ -12,6 +12,7 @@ const StyledAbout = styled.div`
 
 const AboutTitle = styled.span`
   font-size: 40px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const AboutText = styled.span`

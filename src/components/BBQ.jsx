@@ -12,6 +12,7 @@ const StyledBBQ = styled.div`
 
 const BBQTitle = styled.div`
   font-size: 40px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const BBQBody = styled.div`

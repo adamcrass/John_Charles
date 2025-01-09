@@ -18,6 +18,7 @@ const StyledSources = styled.div`
 const SourcesTitle = styled.div`
   font-size: 40px;
   padding-bottom: 20px;
+  font-family: "Chalkduster", sans-serif;
 `;
 
 const SourcesBody = styled.div`
@@ -27,15 +28,24 @@ const SourcesBody = styled.div`
 
 const LinkTitle = styled.div`
   font-size: 30px;
+  font-family: "Chalkduster", sans-serif;
+  white-space: nowrap; /* Prevents the title from wrapping */
 `;
 
 const SourcesText = styled.div`
   display: inline-block;
   color: #898f8b;
-  border-bottom: 1px solid transparent;
   font-style: italic;
-  &:hover {
-    border-bottom-color: currentColor;
+  padding-left: 30px;
+
+  a {
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    text-underline-offset: 3px; /* Adjust the offset for better positioning */
+    padding-left: 5px; /* Add a small padding for better alignment */
+    &:hover {
+      border-bottom-color: currentColor;
+    }
   }
 
   @media (max-width: 768px) {
@@ -49,7 +59,32 @@ const Sources = () => {
     <StyledSources id="sources">
       <SourcesTitle>Sources</SourcesTitle>
       <SourcesBody>
-        <LinkTitle>John John's BBQ</LinkTitle>
+        <LinkTitle>• College</LinkTitle>
+
+        <br />
+        <SourcesText>
+          <a
+            href="https://foothill.prestosports.com/sports/fball/Program_Accomploshments"
+            target="_blank"
+            rel="noopener nereferrer"
+          >
+            https://foothill.prestosports.com/sports/fball/Program_Accomploshments
+          </a>
+        </SourcesText>
+        <br></br>
+        <SourcesText>
+          <a
+            href="https://the-shark-effect.captivate.fm/episode/john-charles-the-resilient-one-bouncing-back-from-adversity"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://the-shark-effect.captivate.fm/episode/john-charles-the-resilient-one-bouncing-back-from-adversity
+          </a>
+        </SourcesText>
+        <br />
+        <br />
+
+        <LinkTitle>• John John's BBQ</LinkTitle>
         <br />
         <SourcesText>
           <a
@@ -63,16 +98,16 @@ const Sources = () => {
         <br></br>
         <SourcesText>
           <a
-            href="https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq/"
+            href="https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq/
+            https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq
           </a>
         </SourcesText>
         <br />
         <br />
-        <LinkTitle>Flex Football</LinkTitle>
+        <LinkTitle>• Flex Football</LinkTitle>
 
         <br />
         <SourcesText>
@@ -95,7 +130,7 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
-        <LinkTitle>Hall of Fame</LinkTitle>
+        <LinkTitle>• Hall of Fame</LinkTitle>
 
         <br />
         <SourcesText>

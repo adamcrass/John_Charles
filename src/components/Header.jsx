@@ -25,6 +25,8 @@ const Logo = styled.a`
   font-size: 54px;
   color: #fff;
   padding-left: 10px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
 `;
 
 const StyledMenu = styled.div`
