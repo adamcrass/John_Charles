@@ -67,8 +67,9 @@ const Video = () => {
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1rel=0"
-          title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
+          src="https://www.youtube.com/embed/YN_DGb7wJGc"
+          title="Air One Football Academy - Feb 2014 - Inside The Camp"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
@@ -77,6 +78,15 @@ const Video = () => {
         <iframe
           src="https://www.youtube.com/embed/_iKNvDCoUBo"
           title="John Charles All American QB Leads Portland State Vikings To Victory Over Boise State"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          src="https://www.youtube.com/embed/bYSWlo1cBN4"
+          title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"

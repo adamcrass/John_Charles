@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import MobileMenu from "./MobileMenu";
 import HamburgerMenu from "../assets/HamburgerLogo";
 import RotatedHamburgerMenu from "../assets/RotatedHamburger";
+import JCLogo from "../assets/JCLogo.png";
 
 const StyledHeader = styled.div`
   background-color: black;
@@ -19,14 +20,7 @@ const StyledHeader = styled.div`
 
   width: 100%;
   z-index: 98;
-`;
-
-const Logo = styled.a`
-  font-size: 54px;
-  color: #fff;
-  padding-left: 10px;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: bold;
+  padding-left: 17px;
 `;
 
 const StyledMenu = styled.div`
@@ -48,6 +42,15 @@ const Hamburger = styled.button`
   }
 `;
 
+const JC = styled.div`
+  width: 70px;
+  height: 70px;
+  background-image: url(${JCLogo});
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+`;
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -62,7 +65,9 @@ const Header = () => {
   return (
     <StyledHeader>
       {menuOpen && <MobileMenu closeMenu={closeMenu} />}
-      <Logo href="#hero">JC</Logo>
+      <a href="#hero">
+        <JC />
+      </a>
       <StyledMenu>
         <Navbar />
       </StyledMenu>

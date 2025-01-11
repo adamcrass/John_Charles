@@ -12,7 +12,7 @@ const FlexFootballTitle = styled.div`
   font-size: 40px;
   color: #fff;
   font-family: "Chalkduster", sans-serif;
-  white-space: nowrap; /* Prevents the title from wrapping */
+  white-space: nowrap;
 `;
 
 const FlexFootballBody = styled.div`
