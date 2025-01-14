@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/John_Charles/static/js/main.fd8e5d08.js",
+    "static/media/Field.png": "/John_Charles/static/media/Field.fc6dbf20e76289b5d91a.png",
+    "static/media/JohnCharles.png": "/John_Charles/static/media/JohnCharles.ecc7f81f703190c4dfae.png",
+    "static/media/NoBackgroundFootball.png": "/John_Charles/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
+    "static/media/NoBackgroundFootballHelmet.png": "/John_Charles/static/media/NoBackgroundFootballHelmet.81aa67749cc8944bee7c.png",
+    "index.html": "/John_Charles/index.html",
+    "main.fd8e5d08.js.map": "/John_Charles/static/js/main.fd8e5d08.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fd8e5d08.js"
+  ]
+}
