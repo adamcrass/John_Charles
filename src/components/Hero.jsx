@@ -36,7 +36,7 @@ const Intro = styled.div`
 `;
 
 const LargeText = styled.span`
-  font-size: clamp(70px, 8vw, 200px);
+  font-size: clamp(64px, 8vw, 200px);
   font-weight: bold;
   text-align: center;
   line-height: 1.2;
@@ -44,7 +44,7 @@ const LargeText = styled.span`
 `;
 
 const SmallText = styled.span`
-  font-size: 46px;
+  font-size: 43px;
 
   @media (max-width: 768px) {
     text-align: center;
