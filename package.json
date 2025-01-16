@@ -1,7 +1,7 @@
 {
-  "name": "your-app",
+  "name": "john_charles",
   "version": "1.0.0",
-  "homepage": "https://adamcrass.github.io/John_Charles/",
+  "homepage": "https://adamcrass.github.io",
   "dependencies": {
     "@emotion/styled": "^11.10.5",
     "react": "^18.0.0",
