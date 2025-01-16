@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "../build/static/js/main.c3d3a87f.js.map",
+    "main.js": "/John_Charles/static/js/main.c3d3a87f.js",
     "static/media/Field.png": "/John_Charles/static/media/Field.fc6dbf20e76289b5d91a.png",
     "static/media/JohnCharles.png": "/John_Charles/static/media/JohnCharles.ecc7f81f703190c4dfae.png",
     "static/media/NoBackgroundFootball.png": "/John_Charles/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
@@ -8,7 +8,5 @@
     "index.html": "/John_Charles/index.html",
     "main.c3d3a87f.js.map": "/John_Charles/static/js/main.c3d3a87f.js.map"
   },
-  "entrypoints": [
-    "static/js/main.c3d3a87f.js"
-  ]
+  "entrypoints": ["static/js/main.c3d3a87f.js"]
 }
