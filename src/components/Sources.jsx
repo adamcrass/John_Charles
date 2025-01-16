@@ -34,15 +34,16 @@ const LinkTitle = styled.div`
 
 const SourcesText = styled.div`
   display: inline-block;
-  color: #898f8b;
   font-style: italic;
   padding-left: 30px;
 
   a {
+    color: #898f8b; /* Set the link color to white or any other color you prefer */
     border-bottom: 1px solid transparent;
     text-decoration: none;
-    text-underline-offset: 3px; /* Adjust the offset for better positioning */
-    padding-left: 5px; /* Add a small padding for better alignment */
+    text-underline-offset: 3px;
+    padding-left: 5px;
+
     &:hover {
       border-bottom-color: currentColor;
     }

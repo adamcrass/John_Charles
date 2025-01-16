@@ -17,24 +17,20 @@ import Bottle from "../assets/BBQ Bottle.png";
 const StyledHome = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center horizontally */
+  margin: 0 auto; /* Ensures no extra margins are added on the sides */
 `;
 
 const ListContainer = styled.ul`
   list-style: none;
   margin: 0;
+  padding: 0;
+  width: 100%; /* Ensures it takes full width */
 
   li {
     position: relative;
-
-    &::before {
-      content: "-";
-      position: absolute;
-      left: 0;
-      top: 34px;
-      font-family: "Chalkduster", sans-serif;
-      font-size: 50px;
-      color: #fff;
-    }
+    width: 100%; /* Ensure each list item is full width */
+    box-sizing: border-box; /* Include padding and borders in width calculation */
   }
 `;
 
@@ -42,20 +38,8 @@ const HelmetPNG = styled.img`
   width: 120px;
   position: absolute;
   z-index: 1;
-  transform: translateY(-50px) translateX(-40px) rotate(30deg); /* Initial X, Y, and rotation */
+  transform: translateY(-50px) translateX(-40px) rotate(30deg);
   right: 100px;
-
-  /* Media query for screens less than 768px */
-  @media (max-width: 768px) {
-    /* Adjust X-position (right) */
-    right: 50px; /* Change right value as needed for smaller screens */
-
-    /* Adjust Y-position */
-    transform: translateY(-50px) translateX(20px) rotate(30deg); /* Adjust Y translation for smaller screens */
-
-    /* Adjust image size */
-    width: 120px; /* You can also reduce the image size for smaller screens */
-  }
 `;
 
 const FootballPNG = styled.img`
@@ -64,18 +48,6 @@ const FootballPNG = styled.img`
   z-index: 1;
   transform: rotate(-15deg) translateY(-30px) translateX(-40px);
   right: 120px;
-
-  /* Media query for screens less than 768px */
-  @media (max-width: 768px) {
-    /* Adjust X-position (right) */
-    right: 40px; /* Change right value for smaller screens */
-
-    /* Adjust Y-position */
-    transform: rotate(-15deg) translateY(-60px) translateX(-30px); /* Adjust Y translation for smaller screens */
-
-    /* Adjust image size */
-    width: 110px; /* Decrease width for better responsiveness */
-  }
 `;
 
 const BottlePNG = styled.img`
@@ -84,18 +56,6 @@ const BottlePNG = styled.img`
   right: 130px;
   width: 160px;
   transform: rotate(-20deg) translateY(-50px) translateX(30px);
-
-  /* Media query for screens less than 768px */
-  @media (max-width: 768px) {
-    /* Adjust X-position (right) */
-    right: 30px; /* Move it closer to the left on smaller screens */
-
-    /* Adjust Y-position */
-    transform: rotate(15deg) translateY(60px) translateX(55px); /* Adjust Y translation for smaller screens */
-
-    /* Adjust image size */
-    width: 100px; /* Reduce image size */
-  }
 `;
 
 const Home = () => {

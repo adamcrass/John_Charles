@@ -13,6 +13,7 @@ const StyledHero = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100%;
 
   @media (min-width: 768px) {
     flex-direction: row;

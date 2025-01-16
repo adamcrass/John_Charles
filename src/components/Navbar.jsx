@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 const StyledNavbar = styled.nav`
   display: flex;
   gap: 20px;
-  padding-right: 10px;
+  padding-right: 40px;
 `;
 
 const StyledLink = styled.a`

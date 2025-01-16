@@ -9,6 +9,10 @@ const StyledFooter = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%; /* Ensures it stretches across the entire width */
+  position: relative; /* Ensures positioning context */
+  left: 0; /* Ensures no offset */
+  right: 0; /* Ensures no offset */
 `;
 
 const Email = styled.div`
