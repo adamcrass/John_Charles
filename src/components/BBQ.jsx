@@ -1,13 +1,12 @@
 import styled from "@emotion/styled";
 
 const StyledBBQ = styled.div`
-  background-color: #2b2b2b;
+  background-color: #595959;
   display: flex;
   width: 100%;
   color: #fff;
   flex-direction: column;
   padding: 40px;
-  font-size: 50px;
 `;
 
 const BBQTitle = styled.div`

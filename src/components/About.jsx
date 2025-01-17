@@ -20,8 +20,6 @@ const AboutText = styled.span`
   padding-top: 10px;
 `;
 
-const JCLogo = styled.img``;
-
 const About = () => {
   return (
     <StyledAbout id="about">

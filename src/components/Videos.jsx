@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledVideos = styled.div`
-  background-color: #595959;
+  background-color: #2b2b2b;
   display: flex;
   width: 100%;
   color: #fff;
@@ -17,25 +17,25 @@ const VideoTitle = styled.span`
 
 const Videos = styled.div`
   display: flex;
-  flex-wrap: wrap; /* Allow videos to wrap */
+  flex-wrap: wrap;
   gap: 10px;
-  justify-content: center; /* Center align videos */
+  justify-content: center;
   width: 100%;
 
   iframe {
-    flex: 1 1 calc(33.33% - 10px); /* Take one-third width minus gap for desktop */
-    aspect-ratio: 16 / 9; /* Maintain 16:9 ratio */
+    flex: 1 1 calc(33.33% - 10px);
+    aspect-ratio: 16 / 9;
     border: none;
   }
 
   @media (max-width: 768px) {
-    flex-direction: column; /* Stack videos on smaller screens */
-    align-items: center; /* Center align */
+    flex-direction: column;
+    align-items: center;
 
     iframe {
       flex: none;
-      width: 100%; /* Full width for mobile */
-      aspect-ratio: 16 / 9; /* Maintain 16:9 ratio */
+      width: 100%;
+      aspect-ratio: 16 / 9;
     }
   }
 `;

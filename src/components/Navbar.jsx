@@ -22,6 +22,7 @@ const Navbar = () => {
       <StyledLink href="#about">About</StyledLink>
       <StyledLink href="#high-school">High School</StyledLink>
       <StyledLink href="#college">College</StyledLink>
+      <StyledLink href="#airone">Air One</StyledLink>
       <StyledLink href="#flex-football">Flex Football</StyledLink>
       <StyledLink href="#bbq">BBQ</StyledLink>
       <StyledLink href="#hall-of-fame">Hall of Fame</StyledLink>

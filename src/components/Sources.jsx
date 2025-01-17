@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledSources = styled.div`
-  background-color: #2b2b2b;
+  background-color: #595959;
   display: flex;
   width: 100%;
   color: #fff;
@@ -9,9 +9,8 @@ const StyledSources = styled.div`
   padding: 40px;
   font-size: 50px;
 
-  /* Ensure flexibility for smaller screens */
   @media (max-width: 768px) {
-    font-size: 18px; /* Adjust font size for small screens */
+    font-size: 18px;
   }
 `;
 
@@ -29,20 +28,20 @@ const SourcesBody = styled.div`
 const LinkTitle = styled.div`
   font-size: 30px;
   font-family: "Chalkduster", sans-serif;
-  white-space: nowrap; /* Prevents the title from wrapping */
+  white-space: nowrap;
 `;
 
 const SourcesText = styled.div`
   display: inline-block;
-  color: #898f8b;
+  color: #abc2d1;
   font-style: italic;
   padding-left: 30px;
 
   a {
     border-bottom: 1px solid transparent;
     text-decoration: none;
-    text-underline-offset: 3px; /* Adjust the offset for better positioning */
-    padding-left: 5px; /* Add a small padding for better alignment */
+    text-underline-offset: 3px;
+    padding-left: 5px;
     &:hover {
       border-bottom-color: currentColor;
     }

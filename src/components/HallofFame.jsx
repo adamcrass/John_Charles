@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledHOF = styled.div`
-  background-color: #595959;
+  background-color: #2b2b2b;
   display: flex;
   width: 100%;
   color: #fff;
@@ -20,7 +20,7 @@ const HOFTitle = styled.div`
   font-size: 40px;
   padding-bottom: 20px;
   font-family: "Chalkduster", sans-serif;
-  white-space: nowrap; /* Prevents the title from wrapping */
+  white-space: nowrap;
 `;
 
 const HallofFame = () => {

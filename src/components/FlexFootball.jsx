@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledFlexFootball = styled.div`
-  background-color: #595959;
+  background-color: #2b2b2b;
   padding: 40px;
   width: 100%;
   color: #fff;

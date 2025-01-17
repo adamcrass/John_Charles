@@ -13,6 +13,7 @@ import Video from "../components/Videos";
 import FootballHelmet from "../assets/NoBackgroundFootballHelmet.png";
 import Football from "../assets/NoBackgroundFootball.png";
 import Bottle from "../assets/BBQ Bottle.png";
+import AirOne from "../components/AirOne";
 
 const StyledHome = styled.div`
   display: flex;
@@ -115,6 +116,9 @@ const Home = () => {
         <HelmetPNG src={FootballHelmet} />
         <li>
           <College />
+        </li>
+        <li>
+          <AirOne />
         </li>
         <li>
           <FlexFootball />
