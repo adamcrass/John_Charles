@@ -51,6 +51,9 @@ const MobileMenu = ({ closeMenu }) => {
         <StyledLink href="#college" onClick={closeMenu}>
           College
         </StyledLink>
+        <StyledLink href="#airone" onClick={closeMenu}>
+          Air One
+        </StyledLink>
         <StyledLink href="#flex-football" onClick={closeMenu}>
           Flex Football
         </StyledLink>
