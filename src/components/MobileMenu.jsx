@@ -14,6 +14,7 @@ const StyledMobileMenu = styled.div`
   background-color: black;
   color: white;
   font-size: 24px;
+  overflow-x: hidden;
 `;
 
 const StyledBody = styled.div`
