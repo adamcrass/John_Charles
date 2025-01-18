@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/John_Charles/static/js/main.a82a776d.js",
-    "static/media/Field.png": "/John_Charles/static/media/Field.fc6dbf20e76289b5d91a.png",
-    "static/media/JohnCharles.png": "/John_Charles/static/media/JohnCharles.ecc7f81f703190c4dfae.png",
-    "static/media/NoBackgroundFootball.png": "/John_Charles/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
-    "static/media/NoBackgroundFootballHelmet.png": "/John_Charles/static/media/NoBackgroundFootballHelmet.81aa67749cc8944bee7c.png",
-    "index.html": "/John_Charles/index.html",
-    "main.a82a776d.js.map": "/John_Charles/static/js/main.a82a776d.js.map"
+    "main.js": "/static/js/main.3acfcdf3.js",
+    "static/media/Field.png": "/static/media/Field.fc6dbf20e76289b5d91a.png",
+    "static/media/JohnCharles.png": "/static/media/JohnCharles.ecc7f81f703190c4dfae.png",
+    "static/media/NoBackgroundFootball.png": "/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
+    "static/media/NoBackgroundFootballHelmet.png": "/static/media/NoBackgroundFootballHelmet.81aa67749cc8944bee7c.png",
+    "index.html": "/index.html",
+    "main.3acfcdf3.js.map": "/static/js/main.3acfcdf3.js.map"
   },
   "entrypoints": [
-    "static/js/main.a82a776d.js"
+    "static/js/main.3acfcdf3.js"
   ]
 }
