@@ -26,19 +26,19 @@ const AirOne = () => {
       <AirOneTitle>Air One </AirOneTitle>
       <AirOneText>
         AirOne Football Academy, founded in 2012, is a leading institution
-        dedicated to the development of young soccer players. Under the guidance
-        of Head Coach John Charles, the academy emphasizes skill development,
-        tactical understanding, and fostering a passion for the game. With
-        facilities located in Vancouver, Washington, and Portland, Oregon,
-        AirOne Football Academy provides a supportive and competitive
+        dedicated to the development of young football players. Under the
+        guidance of Head Coach John Charles, the academy emphasizes skill
+        development, tactical understanding, and fostering a passion for the
+        game. With facilities located in Vancouver, Washington, and Portland,
+        Oregon, AirOne Football Academy provides a supportive and competitive
         environment for aspiring athletes to grow.
         <br />
         <br />
         The academy's programs cater to a range of age groups and skill levels,
         ensuring personalized attention and a pathway for players to achieve
-        their goals. Coach Charles and his team are committed to instilling
-        discipline, teamwork, and a love for soccer, helping players reach their
-        full potential both on and off the field.
+        their goals. Coach Charles and his team were committed to instilling
+        discipline, teamwork, and a love for football, helping players reach
+        their full potential both on and off the field.
       </AirOneText>
     </StyledAirOne>
   );
