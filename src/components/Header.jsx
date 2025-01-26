@@ -62,10 +62,23 @@ const Header = () => {
     setMenuOpen(false);
   };
 
+  // Handle logo click to scroll to the hero section smoothly
+  const handleLogoClick = (e) => {
+    e.preventDefault(); // Prevent the default anchor link behavior
+
+    const targetSection = document.getElementById("hero"); // Get the target section (hero)
+    if (targetSection) {
+      targetSection.scrollIntoView({
+        behavior: "smooth", // Smooth scrolling
+        block: "start", // Align the section to the top
+      });
+    }
+  };
+
   return (
     <StyledHeader>
       {menuOpen && <MobileMenu closeMenu={closeMenu} />}
-      <a href="#hero">
+      <a href="#hero" onClick={handleLogoClick}>
         <JC />
       </a>
       <StyledMenu>
