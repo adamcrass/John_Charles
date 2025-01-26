@@ -26,7 +26,7 @@ const HighSchool = () => {
       <HighSchoolTitle>High School</HighSchoolTitle>
       <HighSchoolBody>
         A graduate of Mountain View High School in Mountain View, California,
-        Charles was a three-year starter in football, and baseball. Charles
+        Charles was a three-year starter in football and baseball. Charles
         earned All-America honors in football as well as being selected
         All-League and All-Peninsula in baseball.
       </HighSchoolBody>

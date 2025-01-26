@@ -18,6 +18,7 @@ import AirOne from "../components/AirOne";
 const StyledHome = styled.div`
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 `;
 
 const ListContainer = styled.ul`

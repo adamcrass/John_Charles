@@ -40,11 +40,6 @@ const Videos = styled.div`
   }
 `;
 
-const Caption = styled.div`
-  font-size: 30px;
-  color: #fff;
-`;
-
 const Video = () => {
   return (
     <StyledVideos id="videos">
