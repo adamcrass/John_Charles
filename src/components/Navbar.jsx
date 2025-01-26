@@ -16,18 +16,47 @@ const StyledLink = styled.a`
 `;
 
 const Navbar = () => {
+  const handleLinkClick = (e, targetId) => {
+    e.preventDefault(); // Prevent the default anchor link behavior
+
+    const targetSection = document.getElementById(targetId);
+    if (targetSection) {
+      // Smoothly scroll to the section
+      targetSection.scrollIntoView({
+        behavior: "smooth", // Smooth scrolling
+        block: "start", // Align the section to the top
+      });
+    }
+  };
+
   return (
     <StyledNavbar>
-      <StyledLink href="#hero">Home</StyledLink>
-      <StyledLink href="#about">About</StyledLink>
-      <StyledLink href="#high-school">High School</StyledLink>
-      <StyledLink href="#college">College</StyledLink>
-      <StyledLink href="#airone">Air One</StyledLink>
-      <StyledLink href="#flex-football">Flex Football</StyledLink>
-      <StyledLink href="#bbq">BBQ</StyledLink>
-      <StyledLink href="#hall-of-fame">Hall of Fame</StyledLink>
-      <StyledLink href="#sources">Sources</StyledLink>
-      <StyledLink href="#videos">Videos</StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "hero")}>Home</StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "about")}>
+        About
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "high-school")}>
+        High School
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "college")}>
+        College
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "airone")}>
+        Air One
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "flex-football")}>
+        Flex Football
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "bbq")}>BBQ</StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
+        Hall of Fame
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "sources")}>
+        Sources
+      </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "videos")}>
+        Videos
+      </StyledLink>
     </StyledNavbar>
   );
 };
