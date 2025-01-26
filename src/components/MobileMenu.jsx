@@ -18,15 +18,15 @@ const StyledMobileMenu = styled.div`
 `;
 
 const StyledBody = styled.div`
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 26px;
+  gap: 20px;
   background-color: black;
   width: 100%;
   height: 100vh;
-  overflow-y: auto; /* Enables vertical scrolling */
+  overflow-y: auto;
   position: fixed;
   top: 4.5px;
 
@@ -34,40 +34,64 @@ const StyledBody = styled.div`
   padding-bottom: 20px;
 `;
 
-const StyledLink = styled.a``;
+const StyledLink = styled.a`
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid;
+  }
+`;
 
 const MobileMenu = ({ closeMenu }) => {
+  const handleLinkClick = (e, targetId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+
+    const targetSection = document.getElementById(targetId);
+    if (targetSection) {
+      const offset = 80; // Adjust this value if necessary
+      const targetPosition =
+        targetSection.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+
+      // Close the menu after scrolling
+      closeMenu();
+    }
+  };
+
   return (
     <StyledMobileMenu>
       <StyledBody>
-        <StyledLink href="#hero" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "hero")}>
           Home
         </StyledLink>
-        <StyledLink href="#about" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "about")}>
           About
         </StyledLink>
-        <StyledLink href="#high-school" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "high-school")}>
           High School
         </StyledLink>
-        <StyledLink href="#college" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "college")}>
           College
         </StyledLink>
-        <StyledLink href="#airone" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "airone")}>
           Air One
         </StyledLink>
-        <StyledLink href="#flex-football" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "flex-football")}>
           Flex Football
         </StyledLink>
-        <StyledLink href="#bbq" onClick={closeMenu}>
-          BBQ
-        </StyledLink>
-        <StyledLink href="#hall-of-fame" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "bbq")}>BBQ</StyledLink>
+        <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </StyledLink>
-        <StyledLink href="#sources" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "sources")}>
           Sources
         </StyledLink>
-        <StyledLink href="#videos" onClick={closeMenu}>
+        <StyledLink onClick={(e) => handleLinkClick(e, "videos")}>
           Videos
         </StyledLink>
       </StyledBody>
