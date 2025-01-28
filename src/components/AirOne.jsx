@@ -114,7 +114,7 @@ const AirOne = () => {
 
   return (
     <StyledAirOne id="airone" onClick={handleOutsideClick}>
-      <AirOneTitle>- Air One</AirOneTitle>
+      <AirOneTitle>— Air One</AirOneTitle>
       <AirOneText>
         AirOne Football Academy, founded in 2012, is a leading institution
         dedicated to the development of young football players. Under the
