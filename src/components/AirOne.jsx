@@ -23,12 +23,12 @@ const AirOneTitle = styled.div`
 
 const AirOneText = styled.div`
   font-size: 20px;
-  margin-bottom: 40px;
   padding-left: 40px;
 `;
 
 const PictureGrid = styled.div`
   display: grid;
+  padding: 40px;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   justify-items: center;
@@ -45,7 +45,6 @@ const PictureContainer = styled.div`
 const CroppedImage = styled.img`
   width: 100%;
   height: 150px;
-  padding: 40px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
