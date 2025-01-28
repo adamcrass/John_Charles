@@ -11,23 +11,20 @@ const StyledAirOne = styled.div`
   background-color: #595959;
   color: #fff;
   width: 100%;
-  padding: 40px;
   position: relative;
-
-  &.fullscreen-active {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
 `;
 
 const AirOneTitle = styled.div`
   font-family: "Chalkduster", sans-serif;
   font-size: 40px;
   margin-bottom: 20px;
+  padding-top: 40px;
 `;
 
 const AirOneText = styled.div`
   font-size: 20px;
   margin-bottom: 40px;
+  padding-left: 40px;
 `;
 
 const PictureGrid = styled.div`
@@ -117,7 +114,7 @@ const AirOne = () => {
 
   return (
     <StyledAirOne id="airone" onClick={handleOutsideClick}>
-      <AirOneTitle>Air One</AirOneTitle>
+      <AirOneTitle>- Air One</AirOneTitle>
       <AirOneText>
         AirOne Football Academy, founded in 2012, is a leading institution
         dedicated to the development of young football players. Under the
