@@ -49,7 +49,7 @@ const MobileMenu = ({ closeMenu }) => {
 
     const targetSection = document.getElementById(targetId);
     if (targetSection) {
-      const offset = 80; // Adjust this value if necessary
+      const offset = 70; // Adjust this value if necessary
       const targetPosition =
         targetSection.getBoundingClientRect().top + window.scrollY - offset;
 
