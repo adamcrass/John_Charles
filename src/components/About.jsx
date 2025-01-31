@@ -33,9 +33,9 @@ const About = () => {
         induction into the Portland State Hall of Fame.
         <br />
         <br />
-        He is currently the Head Coach of AirOne Football Academy, a premier
-        institution founded in 2012 to develop young football players in
-        Vancouver, Washington, and Portland, Oregon. The academy, under Charles'
+        He was the Head Coach of AirOne Football Academy, a premier institution
+        founded in 2012 to develop young football players in Vancouver,
+        Washington, and Portland, Oregon. The academy, under Charles'
         leadership, focuses on skill development, tactical understanding, and
         fostering a passion for the game, providing a supportive environment for
         athletes to thrive.
