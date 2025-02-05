@@ -82,7 +82,29 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
+        <LinkTitle>• Flex Football</LinkTitle>
 
+        <br />
+        <SourcesText>
+          <a
+            href="https://www.kgw.com/article/news/local/flex-football-gives-kids-a-tackle-free-option/283-98d98ebe-96d9-47fb-bf5e-da8a107c8c40"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.kgw.com/article/news/local/flex-football-gives-kids-a-tackle-free-option/283-98d98ebe-96d9-47fb-bf5e-da8a107c8c40
+          </a>
+        </SourcesText>
+        <SourcesText>
+          <a
+            href="https://www.kgw.com/article/news/portland-youth-coach-works-to-keep-kids-safe-on-the-gridiron/283-568065560"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.kgw.com/article/news/portland-youth-coach-works-to-keep-kids-safe-on-the-gridiron/283-568065560
+          </a>
+        </SourcesText>
+        <br />
+        <br />
         <LinkTitle>• John John's BBQ</LinkTitle>
         <br />
         <SourcesText>
@@ -119,29 +141,7 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
-        <LinkTitle>• Flex Football</LinkTitle>
 
-        <br />
-        <SourcesText>
-          <a
-            href="https://www.kgw.com/article/news/local/flex-football-gives-kids-a-tackle-free-option/283-98d98ebe-96d9-47fb-bf5e-da8a107c8c40"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.kgw.com/article/news/local/flex-football-gives-kids-a-tackle-free-option/283-98d98ebe-96d9-47fb-bf5e-da8a107c8c40
-          </a>
-        </SourcesText>
-        <SourcesText>
-          <a
-            href="https://www.kgw.com/article/news/portland-youth-coach-works-to-keep-kids-safe-on-the-gridiron/283-568065560"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.kgw.com/article/news/portland-youth-coach-works-to-keep-kids-safe-on-the-gridiron/283-568065560
-          </a>
-        </SourcesText>
-        <br />
-        <br />
         <LinkTitle>• Hall of Fame</LinkTitle>
 
         <br />
