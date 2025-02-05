@@ -66,12 +66,12 @@ const Picture = styled.div`
 `;
 
 const Img = styled.img`
-  max-width: 500px;
+  max-width: 800px;
   width: 100%;
   height: auto;
 
   @media (max-width: 768px) {
-    max-width: 250px; /* Smaller image on mobile */
+    max-width: 400px; /* Smaller image on mobile */
   }
 `;
 
