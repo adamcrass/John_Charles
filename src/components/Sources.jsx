@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledSources = styled.div`
-  background-color: #595959;
+  background-color: #2b2b2b;
   display: flex;
   width: 100%;
   color: #fff;
@@ -102,6 +102,19 @@ const Sources = () => {
             rel="noopener noreferrer"
           >
             https://www.koin.com/sports/sauce-that-even-the-meat-asks-for-by-name-john-johns-bbq
+          </a>
+        </SourcesText>
+        <br />
+        <br />
+        <LinkTitle>• P.I.R.S.</LinkTitle>
+        <br></br>
+        <SourcesText>
+          <a
+            href="https://www.PIR-S.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.PIR-S.org
           </a>
         </SourcesText>
         <br />

@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const StyledVideos = styled.div`
-  background-color: #2b2b2b;
+  background-color: #595959;
   display: flex;
   width: 100%;
   color: #fff;

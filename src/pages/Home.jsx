@@ -14,6 +14,7 @@ import FootballHelmet from "../assets/NoBackgroundFootballHelmet.png";
 import Football from "../assets/NoBackgroundFootball.png";
 import Bottle from "../assets/BBQ Bottle.png";
 import AirOne from "../components/AirOne";
+import PIRS from "../components/PIRS";
 
 const StyledHome = styled.div`
   display: flex;
@@ -127,6 +128,9 @@ const Home = () => {
         <BottlePNG src={Bottle} />
         <li>
           <BBQ />
+        </li>
+        <li>
+          <PIRS />
         </li>
         <FootballPNG src={Football} />
         <li>

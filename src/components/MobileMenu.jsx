@@ -22,7 +22,7 @@ const StyledBody = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   background-color: black;
   width: 100%;
   height: 100vh;
@@ -85,6 +85,9 @@ const MobileMenu = ({ closeMenu }) => {
           Flex Football
         </StyledLink>
         <StyledLink onClick={(e) => handleLinkClick(e, "bbq")}>BBQ</StyledLink>
+        <StyledLink onClick={(e) => handleLinkClick(e, "pirs")}>
+          P.I.R.S.
+        </StyledLink>
         <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </StyledLink>

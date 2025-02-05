@@ -7,7 +7,6 @@ const StyledAbout = styled.div`
   color: #fff;
   flex-direction: column;
   padding: 40px;
-  font-size: 50px;
 `;
 
 const AboutTitle = styled.span`
@@ -33,12 +32,12 @@ const About = () => {
         induction into the Portland State Hall of Fame.
         <br />
         <br />
-        He was the Head Coach of AirOne Football Academy, a premier institution
-        founded in 2012 to develop young football players in Vancouver,
-        Washington, and Portland, Oregon. The academy, under Charles'
-        leadership, focuses on skill development, tactical understanding, and
-        fostering a passion for the game, providing a supportive environment for
-        athletes to thrive.
+        He was the Head Coach, Founder and Director of Air One Football Academy,
+        a premier institution founded in 2012 to develop young football players
+        in Vancouver, Washington, and Portland, Oregon. The academy, under
+        Charles' leadership, focuses on skill development, tactical
+        understanding, and fostering a passion for the game, providing a
+        supportive environment for athletes to thrive.
         <br />
         <br />
         Beyond football, Charles is an entrepreneur and mentor. For over a
@@ -47,7 +46,9 @@ const About = () => {
         Sauce, which gained local popularity in Prineville and is now sold in
         multiple stores. With aspirations for nationwide distribution, Charles
         continues to impact his community, having received a Jefferson Award for
-        outstanding public service to youth in Portland.
+        outstanding public service to youth in Portland. Additionaly John is
+        currently the President of a Prevention, Intervention, Recovery
+        non-profit that operates in and around the Central Oregon communities.
       </AboutText>
     </StyledAbout>
   );
