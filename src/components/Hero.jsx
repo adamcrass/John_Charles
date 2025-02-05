@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import image from "../assets/Field.png";
-import john from "../assets/JohnCharles.png";
+import john from "../assets/John2.png";
 
 const StyledHero = styled.div`
   display: flex;
@@ -66,8 +66,13 @@ const Picture = styled.div`
 `;
 
 const Img = styled.img`
-  max-width: 1512px;
+  max-width: 500px;
+  width: 100%;
   height: auto;
+
+  @media (max-width: 768px) {
+    max-width: 250px; /* Smaller image on mobile */
+  }
 `;
 
 const Hero = () => {
