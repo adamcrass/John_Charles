@@ -129,9 +129,6 @@ const Home = () => {
         <li>
           <BBQ />
         </li>
-        <li>
-          <PIRS />
-        </li>
         <FootballPNG src={Football} />
         <li>
           <HallofFame />
