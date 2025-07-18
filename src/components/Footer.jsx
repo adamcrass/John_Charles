@@ -86,9 +86,6 @@ const Footer = () => {
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "bbq")}>
           BBQ
         </FooterNavInfo>
-        <FooterNavInfo onClick={(e) => handleLinkClick(e, "pirs")}>
-          P.I.R.S.
-        </FooterNavInfo>
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </FooterNavInfo>
