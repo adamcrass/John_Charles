@@ -20,21 +20,56 @@
     </url>
 
     <url>
-        <loc>https://johncharles.info/contact</loc>
-        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://johncharles.info/gallery</loc>
+        <loc>https://johncharles.info/highschool</loc>
         <lastmod>2025-01-28T19:13:42+00:00</lastmod>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://johncharles.info/blog</loc>
+        <loc>https://johncharles.info/college</loc>
         <lastmod>2025-01-28T19:13:42+00:00</lastmod>
         <priority>0.7</priority>
     </url>
 
+    <url>
+        <loc>https://johncharles.info/airone</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://johncharles.info/flexfootball</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://johncharles.info/bbq</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://johncharles.info/pirs</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://johncharles.info/hof</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://johncharles.info/sources</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://johncharles.info/videos</loc>
+        <lastmod>2025-01-28T19:13:42+00:00</lastmod>
+        <priority>0.7</priority>
+    </url>
 </urlset>
