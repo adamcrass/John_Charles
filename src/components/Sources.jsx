@@ -128,19 +128,6 @@ const Sources = () => {
         </SourcesText>
         <br />
         <br />
-        <LinkTitle>• P.I.R.S.</LinkTitle>
-        <br></br>
-        <SourcesText>
-          <a
-            href="https://www.PIR-S.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.PIR-S.org
-          </a>
-        </SourcesText>
-        <br />
-        <br />
 
         <LinkTitle>• Hall of Fame</LinkTitle>
 
