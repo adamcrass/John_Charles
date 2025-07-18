@@ -6,5 +6,3 @@ const App = () => {
 };
 
 export default App;
-
-SHA256: rhgj4AP0nU8lYYQ3dEk9VP5EeSACtwyMcidYf0uoO0c;
