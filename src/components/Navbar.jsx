@@ -51,9 +51,6 @@ const Navbar = () => {
         Flex Football
       </StyledLink>
       <StyledLink onClick={(e) => handleLinkClick(e, "bbq")}>BBQ</StyledLink>
-      <StyledLink onClick={(e) => handleLinkClick(e, "pirs")}>
-        P.I.R.S.
-      </StyledLink>
       <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
         Hall of Fame
       </StyledLink>
