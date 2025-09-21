@@ -14,6 +14,7 @@ import FootballHelmet from "../assets/NoBackgroundFootballHelmet.png";
 import Football from "../assets/NoBackgroundFootball.png";
 import Bottle from "../assets/BBQ Bottle.png";
 import AirOne from "../components/AirOne";
+import APIR from "../components/APIR"
 
 const StyledHome = styled.div`
   display: flex;
@@ -133,6 +134,7 @@ const Home = () => {
         <li>
           <HallofFame />
         </li>
+        <li><APIR /></li>
         <li>
           <Sources />
         </li>

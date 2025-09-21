@@ -28,9 +28,22 @@ const LeftSection = styled.div`
 const FooterNavInfo = styled.a`
   color: white;
   cursor: pointer;
+  position: relative;
+  display: inline-block;
 
-  &:hover {
-    border-bottom: 1px solid;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1.5px;
+    background: white;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 `;
 
@@ -89,6 +102,7 @@ const Footer = () => {
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </FooterNavInfo>
+        <FooterNavInfo onClick={(e) => handleLinkClick(e, "apir")}> APIR </FooterNavInfo>
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "sources")}>
           Sources
         </FooterNavInfo>

@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+  import styled from "@emotion/styled";
 
 const StyledNavbar = styled.nav`
   display: flex;
@@ -9,9 +9,22 @@ const StyledNavbar = styled.nav`
 const StyledLink = styled.a`
   color: white;
   text-decoration: none;
+  position: relative;
+  display: inline-block;
 
-  &:hover {
-    border-bottom: 1px solid;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1.5px;
+    background: white;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 `;
 
@@ -54,6 +67,7 @@ const Navbar = () => {
       <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
         Hall of Fame
       </StyledLink>
+      <StyledLink onClick={(e) => handleLinkClick(e, "apir")}>APIR</StyledLink>
       <StyledLink onClick={(e) => handleLinkClick(e, "sources")}>
         Sources
       </StyledLink>
