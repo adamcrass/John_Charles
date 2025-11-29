@@ -40,56 +40,39 @@ const Videos = styled.div`
   }
 `;
 
+const Credit = styled.p`
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+`;
+
 const Video = () => {
   return (
     <StyledVideos id="videos">
       <VideoTitle>Videos</VideoTitle>
       <Videos>
-        <iframe
-          src="https://www.youtube.com/watch?v=PP0hxjUzCW4?modestbranding=1&autohide=1&controls=1&rel=0"
-          title="Coach John Charles Speaks About Air One Football Academy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
+<iframe src="https://www.youtube.com/embed/PP0hxjUzCW4?si=IuK_7Yb84knWO3XT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <iframe
-          src="https://www.youtube.com/watch?v=qQxuKRTAGp8?modestbranding=1&autohide=1&controls=1&rel=0"
-          title="Air One Football Academy Defense!"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
+<iframe src="https://www.youtube.com/embed/qQxuKRTAGp8?si=8w6sHLORjKaEWmEn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <iframe
-          src="https://www.youtube.com/watch?v=YN_DGb7wJGc?modestbranding=1&autohide=1&controls=1&rel=0"
-          title="Air One Football Academy - Feb 2014 - Inside The Camp"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
+<iframe src="https://www.youtube.com/embed/YN_DGb7wJGc?si=b0gpUycBV9HqWrnJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <iframe
-          src="https://www.youtube.com/watch?v=_iKNvDCoUBo?modestbranding=1&autohide=1&controls=1&rel=0"
-          title="John Charles All American QB Leads Portland State Vikings To Victory Over Boise State"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
+<iframe src="https://www.youtube.com/embed/_iKNvDCoUBo?si=N-ipnFcdnF52XGrq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <iframe
-          src="https://www.youtube.com/watch?v=bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1&rel=0"
-          title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
-      </Videos>
+<iframe src="https://www.youtube.com/embed/bYSWlo1cBN4?si=WNVvJ2EjjB1_9huK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </Videos>
+    <Credit><p>Credit: <a 
+  href="https://www.youtube.com/@DirkKnudsen1"
+  target="_blank" 
+  rel="noopener noreferrer">
+    Dirk Knudsen</a></p>
+    </Credit>
     </StyledVideos>
   );
 };
