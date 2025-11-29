@@ -46,7 +46,7 @@ const Video = () => {
       <VideoTitle>Videos</VideoTitle>
       <Videos>
         <iframe
-          src="https://www.youtube.com/embed/PP0hxjUzCW4?modestbranding=1&autohide=1&controls=1&rel=0"
+          src="https://www.youtube.com/watch?v=PP0hxjUzCW4?modestbranding=1&autohide=1&controls=1&rel=0"
           title="Coach John Charles Speaks About Air One Football Academy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="no-referrer"
@@ -55,7 +55,7 @@ const Video = () => {
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/qQxuKRTAGp8?modestbranding=1&autohide=1&controls=1&rel=0"
+          src="https://www.youtube.com/watch?v=qQxuKRTAGp8?modestbranding=1&autohide=1&controls=1&rel=0"
           title="Air One Football Academy Defense!"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="no-referrer"
@@ -64,7 +64,7 @@ const Video = () => {
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/YN_DGb7wJGc?modestbranding=1&autohide=1&controls=1&rel=0"
+          src="https://www.youtube.com/watch?v=YN_DGb7wJGc?modestbranding=1&autohide=1&controls=1&rel=0"
           title="Air One Football Academy - Feb 2014 - Inside The Camp"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="no-referrer"
@@ -73,7 +73,7 @@ const Video = () => {
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/_iKNvDCoUBo?modestbranding=1&autohide=1&controls=1&rel=0"
+          src="https://www.youtube.com/watch?v=_iKNvDCoUBo?modestbranding=1&autohide=1&controls=1&rel=0"
           title="John Charles All American QB Leads Portland State Vikings To Victory Over Boise State"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="no-referrer"
@@ -82,7 +82,7 @@ const Video = () => {
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1&rel=0"
+          src="https://www.youtube.com/watch?v=bYSWlo1cBN4?modestbranding=1&autohide=1&controls=1&rel=0"
           title="Kaleb McGary Of Fife HS- All American Prospect TALKS Air One Football and Recruiting!"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="no-referrer"
