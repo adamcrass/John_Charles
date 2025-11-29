@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.942658e9.js",
+    "main.js": "/static/js/main.fb3d200e.js",
     "static/media/7-on-7 Team Platinum.JPG": "/static/media/7-on-7 Team Platinum.070d958addd35beae6ea.JPG",
     "static/media/John2.png": "/static/media/John2.fb583032111f1a914f9b.png",
     "static/media/7-on-7 Team Gold.jpg": "/static/media/7-on-7 Team Gold.f1b9dad943c7a52cb5cc.jpg",
@@ -10,9 +10,9 @@
     "static/media/NoBackgroundFootball.png": "/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
     "static/media/NoBackgroundFootballHelmet.png": "/static/media/NoBackgroundFootballHelmet.81aa67749cc8944bee7c.png",
     "index.html": "/index.html",
-    "main.942658e9.js.map": "/static/js/main.942658e9.js.map"
+    "main.fb3d200e.js.map": "/static/js/main.fb3d200e.js.map"
   },
   "entrypoints": [
-    "static/js/main.942658e9.js"
+    "static/js/main.fb3d200e.js"
   ]
 }
