@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import image from "../assets/Field.png";
-import john from "../assets/John2.png";
+import john from "../assets/Smaller_JC_Bio.png";
 
 const StyledHero = styled.div`
   display: flex;

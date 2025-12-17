@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.f7c3ffd6.js",
+    "main.js": "/static/js/main.c2f34128.js",
     "static/media/7-on-7 Team Platinum.JPG": "/static/media/7-on-7 Team Platinum.070d958addd35beae6ea.JPG",
-    "static/media/John2.png": "/static/media/John2.fb583032111f1a914f9b.png",
+    "static/media/Smaller_JC_Bio.png": "/static/media/Smaller_JC_Bio.cc9233c9466d754a86c4.png",
     "static/media/7-on-7 Team Gold.jpg": "/static/media/7-on-7 Team Gold.f1b9dad943c7a52cb5cc.jpg",
     "static/media/Field.png": "/static/media/Field.fc6dbf20e76289b5d91a.png",
     "static/media/7-on-7 Team Bronz.jpeg": "/static/media/7-on-7 Team Bronz.38f138b5d8bc39987149.jpeg",
@@ -10,9 +10,9 @@
     "static/media/NoBackgroundFootball.png": "/static/media/NoBackgroundFootball.52c9e32922507d4c7f00.png",
     "static/media/NoBackgroundFootballHelmet.png": "/static/media/NoBackgroundFootballHelmet.81aa67749cc8944bee7c.png",
     "index.html": "/index.html",
-    "main.f7c3ffd6.js.map": "/static/js/main.f7c3ffd6.js.map"
+    "main.c2f34128.js.map": "/static/js/main.c2f34128.js.map"
   },
   "entrypoints": [
-    "static/js/main.f7c3ffd6.js"
+    "static/js/main.c2f34128.js"
   ]
 }
