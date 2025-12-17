@@ -20,8 +20,8 @@ const StyledHero = styled.div`
 `;
 
 const Intro = styled.div`
-  font-family: "Archivo Black", sans-serif;
-  font-size: 13px;
+  font-family: "Michroma", sans-serif;
+  font-size: 20px;
   flex: 1;
   line-height: 1;
   display: flex;
@@ -36,15 +36,22 @@ const Intro = styled.div`
 `;
 
 const LargeText = styled.span`
-  font-size: clamp(64px, 8vw, 200px);
+  font-size: 90px;
   font-weight: bold;
   text-align: center;
   line-height: 1.2;
   padding-top: 20px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+
 `;
 
 const SmallText = styled.span`
-  font-size: 43px;
+  font-size: 37px;
 
   @media (max-width: 768px) {
     text-align: center;

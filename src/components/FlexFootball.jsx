@@ -11,7 +11,7 @@ const StyledFlexFootball = styled.div`
 const FlexFootballTitle = styled.div`
   font-size: 40px;
   color: #fff;
-  font-family: "Chalkduster", sans-serif;
+  font-family: "Michroma", sans-serif;
   white-space: nowrap;
 `;
 

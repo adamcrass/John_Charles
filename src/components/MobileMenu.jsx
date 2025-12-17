@@ -15,6 +15,7 @@ const StyledMobileMenu = styled.div`
   color: white;
   font-size: 24px;
   overflow-x: hidden;
+  font-family: "Michroma", sans-serif;
 `;
 
 const StyledBody = styled.div`

@@ -15,7 +15,7 @@ const StyledAirOne = styled.div`
 `;
 
 const AirOneTitle = styled.div`
-  font-family: "Chalkduster", sans-serif;
+  font-family: "Michroma", sans-serif;
   font-size: 40px;
   margin-bottom: 20px;
   padding-top: 40px;
@@ -67,8 +67,9 @@ const CroppedImage = styled.img`
 `;
 
 const PictureCaption = styled.div`
-  font-size: 18px;
+  font-size: 13px;
   padding-bottom: 20px;
+  font-family: "Michroma", sans-serif;
 `;
 
 const AirOne = () => {

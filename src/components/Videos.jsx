@@ -12,7 +12,7 @@ const StyledVideos = styled.div`
 
 const VideoTitle = styled.span`
   padding-bottom: 20px;
-  font-family: "Chalkduster", sans-serif;
+  font-family: "Michroma", sans-serif;
 `;
 
 const Videos = styled.div`
@@ -43,11 +43,12 @@ const Videos = styled.div`
 const Credit = styled.p`
   margin-top: 20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   color: #fff;
+  font-family: "Michroma", sans-serif;
 
   a {
-    color: #fff;
+    color: rgb(171, 194, 209);
     text-decoration: underline;
   }
 `;

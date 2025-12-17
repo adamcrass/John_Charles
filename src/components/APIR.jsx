@@ -11,7 +11,7 @@ const StyledAPIR = styled.div`
 
 const APIRTitle = styled.div`
   font-size: 40px;
-  font-family: "Chalkduster", sans-serif;
+  font-family: "Michroma", sans-serif;
 `;
 
 const APIRText = styled.div`

@@ -11,6 +11,8 @@ const StyledLink = styled.a`
   text-decoration: none;
   position: relative;
   display: inline-block;
+  font-family: "Michroma", sans-serif;
+  font-size: 13px;
 
   &::after {
     content: "";
