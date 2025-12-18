@@ -8,6 +8,7 @@ const StyledHOF = styled.div`
   flex-direction: column;
   padding: 40px;
   font-size: 50px;
+  font-family: "Calibri", sans-serif;
 `;
 
 const HOFText = styled.div`
@@ -19,7 +20,7 @@ const HOFTitle = styled.div`
   color: #fff;
   font-size: 40px;
   padding-bottom: 20px;
-  font-family: "Michroma", sans-serif;
+  
   white-space: nowrap;
 `;
 

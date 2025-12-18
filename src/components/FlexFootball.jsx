@@ -6,12 +6,12 @@ const StyledFlexFootball = styled.div`
   width: 100%;
   color: #fff;
   flex-direction: column;
+  font-family: "Calibri", sans-serif;
 `;
 
 const FlexFootballTitle = styled.div`
   font-size: 40px;
   color: #fff;
-  font-family: "Michroma", sans-serif;
   white-space: nowrap;
 `;
 

@@ -7,11 +7,11 @@ const StyledAbout = styled.div`
   color: #fff;
   flex-direction: column;
   padding: 40px;
+  font-family: "Calibri", sans-serif;
 `;
 
 const AboutTitle = styled.span`
   font-size: 40px;
-  font-family: "Michroma", sans-serif;
 `;
 
 const AboutText = styled.span`

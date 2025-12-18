@@ -7,11 +7,11 @@ const StyledAPIR = styled.div`
   color: #fff;
   flex-direction: column;
   display: flex;
+  font-family: "Calibri", sans-serif;
 `;
 
 const APIRTitle = styled.div`
   font-size: 40px;
-  font-family: "Michroma", sans-serif;
 `;
 
 const APIRText = styled.div`

@@ -7,11 +7,11 @@ const StyledBBQ = styled.div`
   color: #fff;
   flex-direction: column;
   padding: 40px;
+  font-family: "Calibri", sans-serif;
 `;
 
 const BBQTitle = styled.div`
   font-size: 40px;
-  font-family: "Orbitron", sans-serif;
 `;
 
 const BBQBody = styled.div`

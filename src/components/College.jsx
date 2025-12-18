@@ -6,12 +6,12 @@ const StyledCollege = styled.div`
   width: 100%;
   color: #fff;
   flex-direction: column;
+  font-family: "Calibri", sans-serif;
 `;
 
 const CollegeTitle = styled.div`
   font-size: 40px;
   padding-bottom: 20px;
-  font-family: "Michroma", sans-serif;
 `;
 
 const CollegeBody = styled.div`

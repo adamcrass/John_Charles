@@ -13,6 +13,7 @@ const StyledHero = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
+  font-family: "Calibri", sans-serif;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -20,7 +21,6 @@ const StyledHero = styled.div`
 `;
 
 const Intro = styled.div`
-  font-family: "Michroma", sans-serif;
   font-size: 20px;
   flex: 1;
   line-height: 1;
@@ -36,7 +36,7 @@ const Intro = styled.div`
 `;
 
 const LargeText = styled.span`
-  font-size: 90px;
+  font-size: 120px;
   font-weight: bold;
   text-align: center;
   line-height: 1.2;
@@ -51,7 +51,7 @@ const LargeText = styled.span`
 `;
 
 const SmallText = styled.span`
-  font-size: 37px;
+  font-size: 40px;
 
   @media (max-width: 768px) {
     text-align: center;

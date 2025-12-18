@@ -3,12 +3,13 @@ import styled from "@emotion/styled";
 const StyledFooter = styled.div`
   background-color: #000000;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   padding: 30px;
   padding-right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "Calibri", sans-serif;
 `;
 
 const Email = styled.div`
@@ -30,7 +31,6 @@ const FooterNavInfo = styled.a`
   cursor: pointer;
   position: relative;
   display: inline-block;
-  font-family: "Michroma", sans-serif;
 
   &::after {
     content: "";

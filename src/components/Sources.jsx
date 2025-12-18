@@ -8,6 +8,7 @@ const StyledSources = styled.div`
   flex-direction: column;
   padding: 40px;
   font-size: 50px;
+  font-family: "Calibri", sans-serif;
 
   @media (max-width: 768px) {
     font-size: 18px;
@@ -17,7 +18,6 @@ const StyledSources = styled.div`
 const SourcesTitle = styled.div`
   font-size: 40px;
   padding-bottom: 20px;
-  font-family: "Michroma", sans-serif;
 `;
 
 const SourcesBody = styled.div`
@@ -27,7 +27,6 @@ const SourcesBody = styled.div`
 
 const LinkTitle = styled.div`
   font-size: 30px;
-  font-family: "Michroma", sans-serif;
   white-space: nowrap;
 `;
 
