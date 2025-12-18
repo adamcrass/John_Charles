@@ -67,7 +67,7 @@ const CroppedImage = styled.img`
 `;
 
 const PictureCaption = styled.div`
-  font-size: 13px;
+  font-size: 16px;
   padding-bottom: 20px;
 `;
 
