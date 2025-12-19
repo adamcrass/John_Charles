@@ -47,7 +47,6 @@ const CroppedImage = styled.img`
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 
   &.fullscreen {
@@ -61,8 +60,7 @@ const CroppedImage = styled.img`
     z-index: 9999;
     cursor: pointer;
     padding: 20px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
+    border-radius: 100px;
   }
 `;
 

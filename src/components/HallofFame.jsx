@@ -20,7 +20,6 @@ const HOFTitle = styled.div`
   color: #fff;
   font-size: 40px;
   padding-bottom: 20px;
-  
   white-space: nowrap;
 `;
 
