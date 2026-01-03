@@ -6,7 +6,6 @@ const StyledFlexFootball = styled.div`
   width: 100%;
   color: #fff;
   flex-direction: column;
-  font-family: "Calibri", sans-serif;
 `;
 
 const FlexFootballTitle = styled.div`

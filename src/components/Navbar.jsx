@@ -4,7 +4,6 @@ const StyledNavbar = styled.nav`
   display: flex;
   gap: 20px;
   padding-right: 10px;
-  font-family: "Calibri", sans-serif;
 `;
 
 const StyledLink = styled.a`

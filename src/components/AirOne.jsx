@@ -12,7 +12,6 @@ const StyledAirOne = styled.div`
   color: #fff;
   width: 100%;
   position: relative;
-  font-family: "Calibri", sans-serif;
 `;
 
 const AirOneTitle = styled.div`

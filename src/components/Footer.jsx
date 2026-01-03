@@ -9,7 +9,6 @@ const StyledFooter = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Calibri", sans-serif;
 `;
 
 const Email = styled.div`

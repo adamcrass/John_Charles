@@ -8,7 +8,6 @@ const StyledVideos = styled.div`
   flex-direction: column;
   padding: 40px;
   font-size: 40px;
-  font-family: "Calibri", sans-serif;
 `;
 
 const VideoTitle = styled.span`

@@ -34,7 +34,6 @@ const ListContainer = styled.ul`
       position: absolute;
       left: 0;
       top: 21px;
-      font-family: "Michroma", sans-serif;
       font-size: 50px;
       color: #fff;
     }

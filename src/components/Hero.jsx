@@ -13,7 +13,6 @@ const StyledHero = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
-  font-family: "Calibri", sans-serif;
 
   @media (min-width: 768px) {
     flex-direction: row;

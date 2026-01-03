@@ -8,7 +8,6 @@ const StyledAPIRS = styled.div`
   color: #fff;
   flex-direction: column;
   display: flex;
-  font-family: "Calibri", sans-serif;
 `;
 
 const APIRSTitle = styled.div`

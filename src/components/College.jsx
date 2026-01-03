@@ -6,7 +6,6 @@ const StyledCollege = styled.div`
   width: 100%;
   color: #fff;
   flex-direction: column;
-  font-family: "Calibri", sans-serif;
 `;
 
 const CollegeTitle = styled.div`

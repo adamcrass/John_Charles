@@ -8,7 +8,6 @@ const StyledBBQ = styled.div`
   color: #fff;
   flex-direction: row;
   padding: 40px;
-  font-family: "Calibri", sans-serif;
   height: 100%;
 `;
 

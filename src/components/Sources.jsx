@@ -8,7 +8,6 @@ const StyledSources = styled.div`
   flex-direction: column;
   padding: 40px;
   font-size: 50px;
-  font-family: "Calibri", sans-serif;
 
   @media (max-width: 768px) {
     font-size: 18px;

@@ -8,7 +8,6 @@ const StyledHOF = styled.div`
   flex-direction: column;
   padding: 40px;
   font-size: 50px;
-  font-family: "Calibri", sans-serif;
 `;
 
 const HOFText = styled.div`
