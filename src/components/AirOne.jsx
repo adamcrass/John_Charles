@@ -6,23 +6,25 @@ import Gold from "../assets/7-on-7 Team Gold.jpg";
 import Platinum from "../assets/7-on-7 Team Platinum.JPG";
 
 const StyledAirOne = styled.div`
-  display: flex;
-  flex-direction: column;
   background-color: #595959;
-  color: #fff;
+  display: flex;
   width: 100%;
-  position: relative;
+  color: #fff;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 50px;
 `;
 
 const AirOneTitle = styled.div`
+  color: #fff;
   font-size: 40px;
-  margin-bottom: 20px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  white-space: nowrap;
 `;
 
 const AirOneText = styled.div`
+  color: #fff;
   font-size: 20px;
-  padding-left: 40px;
 `;
 
 const PictureGrid = styled.div`
@@ -111,7 +113,7 @@ const AirOne = () => {
 
   return (
     <StyledAirOne id="airone" onClick={handleOutsideClick}>
-      <AirOneTitle>— Air One</AirOneTitle>
+      <AirOneTitle>Air One</AirOneTitle>
       <AirOneText>
         AirOne Football Academy, founded in 2012, is a leading institution
         dedicated to the development of young football players. Under the

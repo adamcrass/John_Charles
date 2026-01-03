@@ -33,7 +33,7 @@ const ListContainer = styled.ul`
       content: "-";
       position: absolute;
       left: 0;
-      top: 21px;
+      top: 30px;
       font-size: 50px;
       color: #fff;
     }
