@@ -103,7 +103,7 @@ const Footer = () => {
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </FooterNavInfo>
-        <FooterNavInfo onClick={(e) => handleLinkClick(e, "apir")}> APIR </FooterNavInfo>
+        <FooterNavInfo onClick={(e) => handleLinkClick(e, "apirs")}> APIRS </FooterNavInfo>
         <FooterNavInfo onClick={(e) => handleLinkClick(e, "sources")}>
           Sources
         </FooterNavInfo>

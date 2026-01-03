@@ -89,8 +89,8 @@ const MobileMenu = ({ closeMenu }) => {
         <StyledLink onClick={(e) => handleLinkClick(e, "hall-of-fame")}>
           Hall of Fame
         </StyledLink>
-        <StyledLink onClick={(e) => handleLinkClick(e, "apir")}>
-          APIR
+        <StyledLink onClick={(e) => handleLinkClick(e, "apirs")}>
+          APIRS
         </StyledLink>
         <StyledLink onClick={(e) => handleLinkClick(e, "sources")}>
           Sources
